@@ -1,0 +1,191 @@
+<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+  <div class="profile-sidebar">
+    <div class="profile-userpic">
+      <img src="assets/img/avatar-user-128x128.png" class="img-responsive" alt="Kartika Pangestu">
+    </div>
+    <div class="profile-usertitle">
+      <div class="profile-usertitle-name">Kartika Pangestu</div>
+      <div class="profile-usertitle-status">
+        Manager
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <ul class="nav menu slimscroll">
+    <li>
+      <a routerLink="/">
+        <em class="fa fa-dashboard">&nbsp;</em> Dashboard
+      </a>
+    </li>
+    <li>
+      <a routerLink="/point-of-sales">
+        <em class="fa fa-shopping-cart">&nbsp;</em> Point Of Sales</a>
+    </li>
+    <li class="parent">
+      <a data-toggle="collapse" href="#navigation-library">
+        <em class="fa fa-cubes">&nbsp;</em> Library
+        <span data-toggle="collapse" href="#navigation-library" class="icon pull-right">
+          <em class="fa fa-angle-double-right"></em>
+        </span>
+      </a>
+      <ul class="children collapse" id="navigation-library">
+        <li>
+          <a routerLink="/item-library">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Item Library
+          </a>
+        </li>
+        <li>
+          <a routerLink="/manage-item">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Manage Item
+          </a>
+        </li>
+        <li>
+          <a routerLink="/categories">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Categories
+          </a>
+        </li>
+        <li>
+          <a routerLink="/discount">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Discount
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="parent">
+      <a data-toggle="collapse" href="#navigation-inventory">
+        <em class="fa fa-download">&nbsp;</em> Inventory
+        <span data-toggle="collapse" href="#navigation-inventory" class="icon pull-right">
+          <em class="fa fa-angle-double-right"></em>
+        </span>
+      </a>
+      <ul class="children collapse" id="navigation-inventory">
+        <li>
+          <a routerLink="/inventory/summary">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Summary
+          </a>
+        </li>
+        <li>
+          <a routerLink="/supplier">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Supplier
+          </a>
+        </li>
+        <li>
+          <a routerLink="/purchase-order">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Purchase Order
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="parent">
+      <a data-toggle="collapse" href="#navigation-customer">
+        <em class="fa fa-users">&nbsp;</em> Customers
+        <span data-toggle="collapse" href="#navigation-customer" class="icon pull-right">
+          <em class="fa fa-angle-double-right"></em>
+        </span>
+      </a>
+      <ul class="children collapse" id="navigation-customer">
+        <li>
+          <a routerLink="/customers/summary">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Summary
+          </a>
+        </li>
+        <li>
+          <a routerLink="/members">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Members
+          </a>
+        </li>
+        <li>
+          <a routerLink="/guests">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Guests
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="parent">
+      <a data-toggle="collapse" href="#navigation-employee">
+        <em class="fa fa-street-view">&nbsp;</em> Employee
+        <span data-toggle="collapse" href="#navigation-employee" class="icon pull-right">
+          <em class="fa fa-angle-double-right"></em>
+        </span>
+      </a>
+      <ul class="children collapse" id="navigation-employee">
+        <li>
+          <a routerLink="/employee/rules">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Rules
+          </a>
+        </li>
+        <li>
+          <a routerLink="/employee/staff">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Staff
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="parent">
+      <a data-toggle="collapse" href="#navigation-report">
+        <em class="fa fa-line-chart">&nbsp;</em> Report
+        <span data-toggle="collapse" href="#navigation-report" class="icon pull-right">
+          <em class="fa fa-angle-double-right"></em>
+        </span>
+      </a>
+      <ul class="children collapse" id="navigation-report">
+        <li>
+          <a routerLink="/report/summary">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Summary
+          </a>
+        </li>
+        <li>
+          <a routerLink="/report/sales">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Sales
+          </a>
+        </li>
+        <li>
+          <a routerLink="/report/transaction">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Transaction
+          </a>
+        </li>
+        <li>
+          <a routerLink="/report/inventory">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Inventory
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="parent">
+      <a data-toggle="collapse" href="#navigation-setting">
+        <em class="fa fa-cogs">&nbsp;</em> Settings
+        <span data-toggle="collapse" href="#navigation-setting" class="icon pull-right">
+          <em class="fa fa-angle-double-right"></em>
+        </span>
+      </a>
+      <ul class="children collapse" id="navigation-setting">
+        <li>
+          <a routerLink="/setting/accounts">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Accounts
+          </a>
+        </li>
+        <li>
+          <a routerLink="/setting/store-profile">
+            <span class="fa fa-arrow-circle-right">&nbsp;</span> Store Profile
+          </a>
+        </li>
+      </ul>
+    </li>
+    <br>
+  </ul>
+
+  <div class="sidebar-footer col-sm-3 col-lg-2">
+    <div class="row">
+      <a routerLink="/help" class="col-md-4" data-toggle="tooltip" data-placement="top" title="Help">
+        <em class="fa fa-question-circle"></em>
+      </a>
+      <a href="" class="col-md-4" data-toggle="tooltip" data-placement="top" title="Sign Out">
+        <em class="fa fa-power-off"></em>
+      </a>
+      <a href="" class="col-md-4" data-toggle="tooltip" data-placement="top" title="Lock Out">
+        <em class="fa fa-sign-out"></em>
+      </a>
+    </div>
+  </div>
+</div>
